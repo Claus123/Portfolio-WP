@@ -17,4 +17,30 @@
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel=”canonical” href=”URLが入る” />
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">KAZUKI YAGATA</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->

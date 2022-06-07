@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
   <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel=”canonical” href=”URLが入る” />
   <link
@@ -22,6 +23,7 @@
   href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
 />
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<?php wp_head(); ?>
 </head>
 
 <body>
@@ -215,5 +217,6 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
+  <?php wp_footer(); ?>
 </body>
 </html>
