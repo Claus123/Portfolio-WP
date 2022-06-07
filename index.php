@@ -71,22 +71,22 @@
           <div class="swiper-wrapper">
             <!-- スライド -->
             <div class="works-item swiper-slide" href="works-template.html">
-              <div class="works-img"><img src="img/amor.png" alt="" /></div>
+              <div class="works-img"><img src="<?php echo get_template_directory_uri(); ?>/img/amor.png" alt="" /></div>
               <p class="works-name">アモール　サッカースクールクラブ</p>
               <p class="works-info">Coding(Responsive) / WordPress</p>
             </div>
             <div class="works-item swiper-slide" href="works-template.html">
-              <div class="works-img"><img src="img/hepere.png" alt="" /></div>
+              <div class="works-img"><img src="<?php echo get_template_directory_uri(); ?>/img/hepere.png" alt="" /></div>
               <p class="works-name">HEPERE</p>
               <p class="works-info">Coding(Responsive) / jQuery(Slick) / WordPress</p>
             </div>
             <div class="works-item swiper-slide" href="works-template.html">
-              <div class="works-img"><img src="img/yokitomo.png" alt="" /></div>
+              <div class="works-img"><img src="<?php echo get_template_directory_uri(); ?>/img/yokitomo.png" alt="" /></div>
               <p class="works-name">よきとも</p>
               <p class="works-info">Coding(Responsive)</p>
             </div>
             <div class="works-item swiper-slide" href="works-template.html">
-              <div class="works-img"><img src="img/trial.png" alt="" /></div>
+              <div class="works-img"><img src="<?php echo get_template_directory_uri(); ?>/img/trial.png" alt="" /></div>
               <p class="works-name">トライアル</p>
               <p class="works-info">Coding(Responsive)</p>
             </div>
@@ -178,7 +178,7 @@
           <h2 class="title">ABOUT</h2>
           <div class="profile">
             <p class="profile-img">
-              <img src="img/profile.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/profile.jpg" alt="">
             </p>
             <div class="profile-body">
               <p>
