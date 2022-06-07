@@ -18,4 +18,13 @@ function st_enqueue_scripts() {
 }
 add_action('wp_enqueue_scripts', 'st_enqueue_scripts');
 
+/**************************************************
+画像パスの読み込み
+**************************************************/
+function imagepassshort($arg) {
+  $content = str_replace('"img/', '"' . get_theme_file_uri() . '/img/', $arg);
+  return $content;
+  }
+  add_action('the_content', 'imagepassshort');
+
 ?>
